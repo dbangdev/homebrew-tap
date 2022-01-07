@@ -1,16 +1,16 @@
 class Dbang < Formula
   desc 'CLI to manage Deno scripts'
   homepage 'https://dbang.dev'
-  version '0.1.3'
+  version '0.1.4'
   license 'Apache-2.0'
 
   if OS.mac? && Hardware::CPU.intel?
-    url 'https://github.com/dbangdev/dbang/releases/download/0.1.3/dbang-0.1.3-x86_64-apple-darwin.tar'
-    sha256 '9d247b8007d581f8a1f270ed69d0f095facba917cd1442af785587bc0bfe7713'
+    url 'https://github.com/dbangdev/dbang/releases/download/0.1.4/dbang-0.1.4-x86_64-apple-darwin.tar'
+    sha256 '0995fc4621f148ca7c3e8bc84caa3a7fa859b1dc6d29d3c4ebeb88dde675bd9c'
   end
   if OS.mac? && Hardware::CPU.arm?
-    url 'https://github.com/dbangdev/dbang/releases/download/0.1.3/dbang-0.1.3-aarch64-apple-darwin.tar'
-    sha256 '1a97c65a4a53188e2d8b0c598ff9c7137184a87f481e9cc00cc30e77a963db2f'
+    url 'https://github.com/dbangdev/dbang/releases/download/0.1.4/dbang-0.1.4-aarch64-apple-darwin.tar'
+    sha256 'be05b906fcc74815a0fe8b62db23d4139dfb983a406dfcbc882632a39c662532'
   end
 
   def install
