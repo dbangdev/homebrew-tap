@@ -4,6 +4,8 @@ class Httpx < Formula
   version '0.1.0'
   license 'Apache-2.0'
 
+  depends_on 'grpcurl'
+
   if OS.mac? && Hardware::CPU.intel?
     url 'https://github.com/linux-china/httpx/releases/download/0.1.0/httpx-0.1.0-x86_64-apple-darwin.tar'
     sha256 '6c4732eb1bdf42a5be3645763f85e39b677f1e2e7498b5e50807d38a35564303'
